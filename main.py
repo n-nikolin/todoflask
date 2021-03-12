@@ -1,15 +1,3 @@
-# TODO: I did it in the most retareded way possible.
-# This is truly pitiful and i am quite annoyed that i can't output shit
-# from the console to the web page
-# this is truly retarded
-# will try to use psycopg2 tomorrow to query the timedelta of each todo_item
-# but using psycopg2 seems to be a bit of an overkill
-# almost certain there is a nice and tidy way of going about it
-# this got a bit too messy
-
-# TODO: hust fuck around with psycopg2 in neighbor file
-# and import it into main.py
-
 from datetime import datetime, timedelta
 
 from flask import Flask, render_template, request, redirect, url_for
